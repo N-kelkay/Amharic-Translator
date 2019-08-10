@@ -1,5 +1,3 @@
-import re
-
 file = open("TranslateTestFile.txt", 'r')
 finalTrans = ""
 
@@ -9,14 +7,20 @@ for line in file:
     
     for x in rowList:
         for y in x:
-            if y == "አ":
-                finalTrans += "ah"
-            if y == "በ":
-                finalTrans += "be"
-            if y == "ሶ":
-                finalTrans += "so"
-            if y == "ላ":
-                finalTrans += "la"
+            if y == "ሀ":
+                finalTrans += "hä"
+            elif y == "ሁ":
+                finalTrans += "hu"
+            elif y == "ሂ":
+                finalTrans += "hi"
+            elif y == "ሃ":
+                finalTrans += "ha"
+            elif y == "ሄ":
+                finalTrans += "hē"
+            elif y == "ህ":
+                finalTrans += "hə"
+            elif y == "ሆ":
+                finalTrans += "ho"
         finalTrans += " "
 
 print("Here is the final translation:")
