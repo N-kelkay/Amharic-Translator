@@ -59,6 +59,21 @@ for line in file:
             elif y == "ሎ":
                 finalTrans += "lo"
 
+            #the second ha family ሐ ሑ ሒ ሓ ሔ ሕ ሖ
+            elif y == "ሐ":
+                finalTrans += "hhä"
+            elif y == "ሑ":
+                finalTrans += "hhu"
+            elif y == "ሒ":
+                finalTrans += "hhi"
+            elif y == "ሓ":
+                finalTrans += "hha"
+            elif y == "ሔ":
+                finalTrans += "hhē"
+            elif y == "ሕ":
+                finalTrans += "hhə"
+            elif y == "ሖ":
+                finalTrans += "hho"
         finalTrans += " "
 
 print("Here is the final translation:")
