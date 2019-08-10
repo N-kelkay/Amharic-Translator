@@ -26,7 +26,8 @@ for line in file:
                     finalTrans += "?"
                 elif y == "፨": # ፨ paragraph separator 
                     finalTrans += "" #Also not sure about this one
-                finalTrans += "hello"
+            
+            #the ha family
             elif y == "ሀ":
                 finalTrans += "hä"
             elif y == "ሁ":
@@ -41,6 +42,23 @@ for line in file:
                 finalTrans += "hə"
             elif y == "ሆ":
                 finalTrans += "ho"
+            
+            #the le family   ለ ሉ ሊ ላ ሌ ል ሎ
+            elif y == "ለ":
+                finalTrans += "le"
+            elif y == "ሉ":
+                finalTrans += "lu"
+            elif y == "ሊ":
+                finalTrans += "li"
+            elif y == "ላ":
+                finalTrans += "la"
+            elif y == "ሌ":
+                finalTrans += "lē"
+            elif y == "ል":
+                finalTrans += "lə"
+            elif y == "ሎ":
+                finalTrans += "lo"
+
         finalTrans += " "
 
 print("Here is the final translation:")
