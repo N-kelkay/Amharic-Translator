@@ -176,7 +176,8 @@ for line in file:
             elif y == "ሮ":
                 finalTrans += "ro"
                 lineTrans += "ro"
-    finalTrans += " "
+        lineTrans += " "
+        finalTrans += " "
     file.write(lineTrans + "\n")
 
 print(finalTrans)
