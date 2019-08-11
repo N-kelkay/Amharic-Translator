@@ -129,8 +129,7 @@ for line in file:
                 lineTrans += "mə"
             elif y == "ሞ":
                 finalTrans += "mo"
-                lineTrans += "mo"
-            
+                lineTrans += "mo"          
 
             #the sze family ሠ ሡ ሢ ሣ ሤ ሥ ሦ
             elif y == "ሠ":
@@ -154,6 +153,29 @@ for line in file:
             elif y == "ሦ":
                 finalTrans += "szo"
                 lineTrans += "szo"
+
+            #the re family ረ ሩ ሪ ራ ሬ ር ሮ
+            elif y == "ረ":
+                finalTrans += "re"
+                lineTrans += "re"
+            elif y == "ሩ":
+                finalTrans += "ru"
+                lineTrans += "ru"
+            elif y == "ሪ":
+                finalTrans += "ri"
+                lineTrans += "ri"
+            elif y == "ራ":
+                finalTrans += "ra"
+                lineTrans += "ra"
+            elif y == "ሬ":
+                finalTrans += "rē"
+                lineTrans += "rē"
+            elif y == "ር":
+                finalTrans += "rə"
+                lineTrans += "rə"
+            elif y == "ሮ":
+                finalTrans += "ro"
+                lineTrans += "ro"
     finalTrans += " "
     file.write(lineTrans + "\n")
 
