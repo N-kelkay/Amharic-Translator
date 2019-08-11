@@ -107,6 +107,29 @@ for line in file:
             elif y == "ሖ":
                 finalTrans += "hho"
                 lineTrans += "hho"
+
+            # the me family መ ሙ ሚ ማ ሜ ም ሞ
+            elif y == "መ":
+                finalTrans += "me"
+                lineTrans += "me"
+            elif y == "ሙ":
+                finalTrans += "mu"
+                lineTrans += "mu"
+            elif y == "ሚ":
+                finalTrans += "mi"
+                lineTrans += "mi"
+            elif y == "ማ":
+                finalTrans += "ma"
+                lineTrans += "ma"
+            elif y == "ሜ":
+                finalTrans += "mē"
+                lineTrans += "mē"
+            elif y == "ም":
+                finalTrans += "mə"
+                lineTrans += "mə"
+            elif y == "ሞ":
+                finalTrans += "mo"
+                lineTrans += "mo"
     finalTrans += " "
     file.write(lineTrans + "\n")
 
