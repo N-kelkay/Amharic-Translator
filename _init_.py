@@ -130,6 +130,30 @@ for line in file:
             elif y == "ሞ":
                 finalTrans += "mo"
                 lineTrans += "mo"
+            
+
+            #the sze family ሠ ሡ ሢ ሣ ሤ ሥ ሦ
+            elif y == "ሠ":
+                finalTrans += "sze"
+                lineTrans += "sze"
+            elif y == "ሡ":
+                finalTrans += "szu"
+                lineTrans += "szu"
+            elif y == "ሢ":
+                finalTrans += "szi"
+                lineTrans += "szi"
+            elif y == "ሣ":
+                finalTrans += "sza"
+                lineTrans += "sza"
+            elif y == "ሤ":
+                finalTrans += "szē"
+                lineTrans += "szē"
+            elif y == "ሥ":
+                finalTrans += "szə"
+                lineTrans += "szə"
+            elif y == "ሦ":
+                finalTrans += "szo"
+                lineTrans += "szo"
     finalTrans += " "
     file.write(lineTrans + "\n")
 
