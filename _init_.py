@@ -200,28 +200,29 @@ for line in file:
                 finalTrans += "so"
                 lineTrans += "so"
             
-            #the Che Family ሸ ሹ ሺ ሻ ሼ ሽ ሾ
+            #the she Family ሸ ሹ ሺ ሻ ሼ ሽ ሾ
             elif y == "ሸ":
-                finalTrans += "che"
-                lineTrans += "che"
+                finalTrans += "she"
+                lineTrans += "she"
             elif y == "ሹ":
-                finalTrans += "chu"
-                lineTrans += "chu"
+                finalTrans += "shu"
+                lineTrans += "shu"
             elif y == "ሺ":
-                finalTrans += "chi"
-                lineTrans += "chi"
+                finalTrans += "shi"
+                lineTrans += "shi"
             elif y == "ሻ":
-                finalTrans += "cha"
-                lineTrans += "cha"
+                finalTrans += "sha"
+                lineTrans += "sha"
             elif y == "ሼ":
-                finalTrans += "chē"
-                lineTrans += "chē"
+                finalTrans += "shē"
+                lineTrans += "shē"
             elif y == "ሽ":
-                finalTrans += "chə"
-                lineTrans += "chə"
+                finalTrans += "shə"
+                lineTrans += "shə"
             elif y == "ሾ":
-                finalTrans += "cho"
-                lineTrans += "cho"
+                finalTrans += "sho"
+                lineTrans += "sho"
+
         lineTrans += " "
         finalTrans += " "
     file.write(lineTrans + "\n")
