@@ -199,6 +199,29 @@ for line in file:
             elif y == "ሶ":
                 finalTrans += "so"
                 lineTrans += "so"
+            
+            #the Che Family ሸ ሹ ሺ ሻ ሼ ሽ ሾ
+            elif y == "ሸ":
+                finalTrans += "che"
+                lineTrans += "che"
+            elif y == "ሹ":
+                finalTrans += "chu"
+                lineTrans += "chu"
+            elif y == "ሺ":
+                finalTrans += "chi"
+                lineTrans += "chi"
+            elif y == "ሻ":
+                finalTrans += "cha"
+                lineTrans += "cha"
+            elif y == "ሼ":
+                finalTrans += "chē"
+                lineTrans += "chē"
+            elif y == "ሽ":
+                finalTrans += "chə"
+                lineTrans += "chə"
+            elif y == "ሾ":
+                finalTrans += "cho"
+                lineTrans += "cho"
         lineTrans += " "
         finalTrans += " "
     file.write(lineTrans + "\n")
