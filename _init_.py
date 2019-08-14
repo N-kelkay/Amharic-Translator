@@ -176,6 +176,29 @@ for line in file:
             elif y == "ሮ":
                 finalTrans += "ro"
                 lineTrans += "ro"
+
+            #The se Family ሰ ሱ ሲ ሳ ሴ ስ ሶ
+            elif y == "ሰ":
+                finalTrans += "se"
+                lineTrans += "se"
+            elif y == "ሱ":
+                finalTrans += "su"
+                lineTrans += "su"
+            elif y == "ሲ":
+                finalTrans += "si"
+                lineTrans += "si"
+            elif y == "ሳ":
+                finalTrans += "sa"
+                lineTrans += "sa"
+            elif y == "ሴ":
+                finalTrans += "sē"
+                lineTrans += "sē"
+            elif y == "ስ":
+                finalTrans += "sə"
+                lineTrans += "sə"
+            elif y == "ሶ":
+                finalTrans += "so"
+                lineTrans += "so"
         lineTrans += " "
         finalTrans += " "
     file.write(lineTrans + "\n")
