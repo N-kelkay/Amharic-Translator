@@ -248,7 +248,29 @@ for line in file:
                 lineTrans += "qo"
 
             #the qhe family ቐ ቑ ቒ ቓ ቔ ቕ ቖ
+            elif y == "ቀ":
+                finalTrans += "qe"
+                lineTrans += "qe"
+            elif y == "ቁ":
+                finalTrans += "qu"
+                lineTrans += "qu"
+            elif y == "ቂ":
+                finalTrans += "qi"
+                lineTrans += "qi"
+            elif y == "ቃ":
+                finalTrans += "qa"
+                lineTrans += "qa"
+            elif y == "ቄ":
+                finalTrans += "qē"
+                lineTrans += "qē"
+            elif y == "ቅ":
+                finalTrans += "qə"
+                lineTrans += "qə"
+            elif y == "ቆ":
+                finalTrans += "qo"
+                lineTrans += "qo"
 
+            
         lineTrans += " "
         finalTrans += " "
     file.write(lineTrans + "\n")
