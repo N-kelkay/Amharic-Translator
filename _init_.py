@@ -247,6 +247,8 @@ for line in file:
                 finalTrans += "qo"
                 lineTrans += "qo"
 
+            #the qhe family ቐ ቑ ቒ ቓ ቔ ቕ ቖ
+
         lineTrans += " "
         finalTrans += " "
     file.write(lineTrans + "\n")
