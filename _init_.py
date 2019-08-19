@@ -222,7 +222,6 @@ for line in file:
             elif y == "ሾ":
                 finalTrans += "sho"
                 lineTrans += "sho"
-
             
             #the qe Family ቀ ቁ ቂ ቃ ቄ ቅ ቆ
             elif y == "ቀ":
@@ -248,28 +247,27 @@ for line in file:
                 lineTrans += "qo"
 
             #the qhe family ቐ ቑ ቒ ቓ ቔ ቕ ቖ
-            elif y == "ቀ":
-                finalTrans += "qe"
-                lineTrans += "qe"
-            elif y == "ቁ":
-                finalTrans += "qu"
-                lineTrans += "qu"
-            elif y == "ቂ":
-                finalTrans += "qi"
-                lineTrans += "qi"
-            elif y == "ቃ":
-                finalTrans += "qa"
-                lineTrans += "qa"
-            elif y == "ቄ":
-                finalTrans += "qē"
-                lineTrans += "qē"
-            elif y == "ቅ":
-                finalTrans += "qə"
-                lineTrans += "qə"
-            elif y == "ቆ":
-                finalTrans += "qo"
-                lineTrans += "qo"
-
+            elif y == "ቐ":
+                finalTrans += "qhe"
+                lineTrans += "qhe"
+            elif y == "ቑ":
+                finalTrans += "qhu"
+                lineTrans += "qhu"
+            elif y == "ቒ":
+                finalTrans += "qhi"
+                lineTrans += "qhi"
+            elif y == "ቓ":
+                finalTrans += "qha"
+                lineTrans += "qha"
+            elif y == "ቔ":
+                finalTrans += "qhē"
+                lineTrans += "qhē"
+            elif y == "ቕ":
+                finalTrans += "qhə"
+                lineTrans += "qhə"
+            elif y == "ቖ":
+                finalTrans += "qho"
+                lineTrans += "qho"
             
         lineTrans += " "
         finalTrans += " "
